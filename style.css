@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+#playerButtons {
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: space-around;
+}
+
+.selectionButton {
+    padding: 1%;
+    background-color: #10bddb;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5%;
+    font-size: 24px;
+
+}
+
+#result {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+    font-size: 24px;
+}
+
+.selectionButton:active {
+    background-color: #10db32;
+}
+
+#replayButton {
+    display: flex;
+    justify-content: center;
+}
+
+#replay {
+    padding: 1%;
+    background-color: #0a7de9;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

@@ -1,10 +1,32 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <title>Rock Paper Scissor</title>
-    <meta charset="UTF-8" />
     <link rel = "stylesheet" href = "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+<body>
+    <div id = "title"><h1>ROCK PAPER SCISSOR</h1></div>
+    <div id = playerButtons>
+        <button class = "selectionButton" id = "Rock">ROCK</button>
+        <button class = "selectionButton" id = "Paper">PAPER</button>
+        <button class = "selectionButton" id = "Scissor">SCISSOR</button>
+    </div>
+    <div id = "info">
+        <div id = "playerInfo">
+            <h2>PLAYER</h2>
+        </div>
+        <div id = "computerInfo">
+            <h2>COMPUTER</h2>
+        </div>
+    </div>
+    <div id = "result">
+    </div>
 
-<script src = "script.js" type = text/JavaScript></script>
+
+    <div id = "replayButton"><button type="button" onClick="window.location.reload();" id = "replay">Play Again</button></div>
+</body>
+<script src = "app.js" type = text/JavaScript></script>
 </html>
